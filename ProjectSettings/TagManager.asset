@@ -2,8 +2,11 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Interactable
+  - Obstacle
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,10 +14,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Interactable
+  - Obstacle
   - 
   - 
   - 
@@ -41,3 +44,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Floor
+    uniqueID: 1538054005
+    locked: 0
+  - name: Environment
+    uniqueID: 3065575471
+    locked: 0
+  - name: Characters
+    uniqueID: 225716695
+    locked: 0
+  - name: Foreground
+    uniqueID: 1135682961
+    locked: 0
+  m_RenderingLayers:
+  - Default
